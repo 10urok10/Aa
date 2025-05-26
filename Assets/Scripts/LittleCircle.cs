@@ -23,6 +23,7 @@ public class LittleCircle : MonoBehaviour
     {
         if(col.gameObject.tag == "BigCircle")
         {
+            transform.SetParent(col.transform);
             isMovementRestricted = true;
         }
     }
