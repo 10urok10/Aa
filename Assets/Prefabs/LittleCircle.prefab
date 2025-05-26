@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 160480200424496933}
   m_Layer: 0
   m_Name: LittleCircle
-  m_TagString: Untagged
+  m_TagString: LittleCircle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

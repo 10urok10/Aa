@@ -6,6 +6,7 @@ public class LittleCircle : MonoBehaviour
     Rigidbody2D rb;
     public float speed;
     public bool isMovementRestricted;
+    public GameOver gameOver;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,6 +26,11 @@ public class LittleCircle : MonoBehaviour
         {
             transform.SetParent(col.transform);
             isMovementRestricted = true;
+        }
+
+        if (col.CompareTag("LittleCircle"))
+        {
+            gameOver.End();
         }
     }
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - BigCircle
+  - LittleCircle
   layers:
   - Default
   - TransparentFX
